@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jeet's Portfolio",
-  description: "Jeet Trivedi's developer portfolio",
+  title: "David's Portfolio",
+  description: "David's developer portfolio",
 };
 
 export default function RootLayout({
@@ -19,7 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jt.png" sizes="any" className="rounded-[50%]" />
+        {/* Add a browser tab icon */}
+        {/* <link rel="icon" href="/jt.png" sizes="any" className="rounded-[50%]" /> */}
       </head>
       <body className={inter.className}>
         <ThemeProvider
