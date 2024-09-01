@@ -18,10 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        {/* Add a browser tab icon */}
-        {/* <link rel="icon" href="/jt.png" sizes="any" className="rounded-[50%]" /> */}
-      </head>
+      <head></head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
