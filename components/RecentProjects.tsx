@@ -6,6 +6,7 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
+
   return (
     <div id="projects" className="py-20">
       <h1 className="heading">
@@ -20,12 +21,12 @@ const RecentProjects = () => {
           >
             <PinContainer
               title={item.title}
-              href="https://github.com/DavidLeeMinjae"
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
+                  style={{ backgroundColor: "rgb(0 3 25 / var(--tw-bg-opacity))" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
